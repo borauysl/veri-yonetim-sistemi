@@ -1,0 +1,137 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veri Yönetim Sistemi</title>
+    <style>
+        /* Navbar stilleri */
+        .navbar {
+            background-color: #fff; /* Beyaz arka plan */
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Logo ve yazı arasında boşluk bırakmak için */
+            border-bottom: 1px solid #ccc;
+        }
+
+            .navbar img {
+                width: 50px;
+                margin-right: 10px;
+            }
+
+        .university-title {
+            font-size: 18px;
+            font-weight: bold; /* Yazıyı kalınlaştır */
+            color: #333;
+            text-align: center; /* Yazıyı ortala */
+            flex-grow: 1; /* Yer kaplamak için */
+        }
+
+        /* Diğer stiller */
+        .login-container {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: auto; /* Yatay ortala */
+            position: absolute; /* Mutlak konumlandırma */
+            top: 50%; /* Üst kenarı ekranın yarısına gelir */
+            left: 50%; /* Sol kenarı ekranın yarısına gelir */
+            transform: translate(-50%, -50%); /* Dikey ve yatay olarak tam ortala */
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+            font-size: 24px;
+            text-align: center; /* Başlığı ortala */
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+            .input-group label {
+                display: block;
+                margin-bottom: 5px;
+                color: #666;
+            }
+
+            .input-group input {
+                width: calc(100% - 22px);
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+        .error-message {
+            color: red;
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        /* Ek olarak, sayfa arka planını güzelleştirelim */
+        body {
+            background-color: #add8e6; /* Bebe mavisi */
+            margin: 0; /* Sayfa kenar boşluğunu kaldır */
+            font-family: Arial, sans-serif; /* Genel yazı tipi */
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="university_logo.png" alt=".">
+        <div class="university-title">İstanbul Aydın Üniversitesi Veri Yönetim Sistemi</div>
+    </div>
+
+    <div class="login-container">
+        <h2>Kullanıcı Girişi</h2>
+        <!-- Hata mesajı gösterme -->
+        @if (!string.IsNullOrEmpty(TempData["ErrorMessage"] as string))
+        {
+            <div class="error-message">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+        <!-- Kullanıcı giriş formu -->
+        <form id="login-form" method="post">
+            <div class="input-group">
+                <label for="username">Kullanıcı adınız</label>
+                <input type="text" id="username" name="userName" required>
+                <!-- nameyi userNameye eşitliyoruz çünkü homecontrollerde öyle tanımladık oradaki işlemler için gerekli oluyor aynı windowsformdaki isimler gibi düşünün -->
+            </div>
+            <div class="input-group">
+                <label for="password">Şifreniz</label>
+                <input type="password" id="password" name="password" required>
+                <!-- aynı şekilde burda nameyi passworda tanımlıyoruz -->
+            </div>
+            <button type="submit">Giriş Yap</button>
+        </form>
+        <!-- kullanıcı girişi formu bitişi -->
+    </div>
+
+    <!-- Diğer HTML kodları buraya -->
+</body>
+</html>

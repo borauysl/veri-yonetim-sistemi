@@ -1,0 +1,153 @@
+﻿@model Project
+@{
+    Layout = null;
+    ViewData["Title"] = "Yönetici Paneli";
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #add8e6; /* Bebe mavisi */
+            margin: 0; /* Sayfa kenar boşluğunu kaldır */
+            font-family: Arial, sans-serif; /* Genel yazı tipi */
+        }
+
+        .navbar {
+            background-color: #fff; /* Beyaz */
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: #333; /* Siyah */
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="date"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff; /* Koyu Mavi */
+            color: #fff; /* Beyaz */
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            button:hover {
+                background-color: #0056b3; /* Koyu Mavinin Açık Tonu */
+            }
+
+        .text-danger {
+            color: #dc3545; /* Kırmızı */
+        }
+
+        .alert-success {
+            color: #155724;
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+            position: relative; /* Dökümanın içinde pozisyonlandır */
+            top: 20px; /* Butonun üzerine 20 piksel yukarıda */
+            z-index: 9999;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .alert-danger {
+            color: #721c24;
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+            position: relative; /* Dökümanın içinde pozisyonlandır */
+            top: 20px; /* Butonun üzerine 20 piksel yukarıda */
+            z-index: 9999;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">İstanbul Aydın Üniversitesi Veri Yönetim Sistemi</a>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1>Proje Bilgileri :</h1>
+        <form method="post" action="/Home/yoneticiSayfasi">
+            <div class="form-group">
+                <label for="ProjeAdi">Proje Adı:</label>
+                <input name="ProjeAdi" class="form-control" required />
+                @Html.ValidationMessageFor(model => model.ProjeAdi, "", new { @class = "text-danger" })  <!-- class üzerindeki veriye eşitliyoruz önemli -->
+            </div>
+            <div class="form-group">
+                <label for="ProjeYapimcisi">Proje Yapımcısı:</label>
+                <input name="ProjeYapimcisi" class="form-control" required />
+                @Html.ValidationMessageFor(model => model.ProjeYapimcisi, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label for="ProjeTarihi">Proje Tarihi:</label>
+                <input name="ProjeTarihi" class="form-control" required type="date" />
+                @Html.ValidationMessageFor(model => model.ProjeTarihi, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label for="ProjeSure">Proje Süresi (gün):</label>
+                <input name="ProjeSure" class="form-control" required type="number" min="1" />
+                @Html.ValidationMessageFor(model => model.ProjeSure, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label for="ProjeButcesi">Proje Bütçesi (₺):</label>
+                <input name="ProjeButcesi" class="form-control" required type="number" min="0" />
+                @Html.ValidationMessageFor(model => model.ProjeButcesi, "", new { @class = "text-danger" })
+            </div>
+            <button type="submit" class="btn btn-primary">Kaydet</button>
+        </form>
+
+        <!-- Hata mesajını göster -->
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        <!-- Başarı mesajını göster -->
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+    </div>
+
+  
+    <div class="container mt-4">
+        <a href="/Home/yoneticiTabloGoruntule" class="btn btn-primary">Proje Tablosunu Görüntüle</a>
+    </div>
+
+</body>
+</html>

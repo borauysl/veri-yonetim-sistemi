@@ -1,0 +1,228 @@
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\veriyonetim.dll.config
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\veriyonetim.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\veriyonetim.pdb
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\csc.exe
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\csc.exe.config
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\csc.rsp
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\csi.exe
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\csi.exe.config
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\csi.rsp
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.AppContext.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Console.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.IO.Compression.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Net.Http.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Net.Sockets.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.ValueTuple.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Xml.XPath.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\vbc.exe
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\vbc.exe.config
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\vbc.rsp
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\VBCSCompiler.exe
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\Antlr3.Runtime.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\Newtonsoft.Json.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Web.Helpers.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Web.Mvc.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Web.Optimization.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Web.Razor.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Web.WebPages.Deployment.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Web.WebPages.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Web.WebPages.Razor.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\WebGrease.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Web.Helpers.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Web.Mvc.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Web.Optimization.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Web.Razor.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Web.WebPages.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Web.WebPages.Deployment.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Web.WebPages.Razor.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\Newtonsoft.Json.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\Antlr3.Runtime.pdb
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\obj\Debug\veriyonetim.csproj.AssemblyReference.cache
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\obj\Debug\veriyonetim.csproj.CoreCompileInputs.cache
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\obj\Debug\veriyonetim.csproj.CopyComplete
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\obj\Debug\veriyonetim.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\obj\Debug\veriyonetim.pdb
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\BouncyCastle.Cryptography.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\Google.Protobuf.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\K4os.Compression.LZ4.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\K4os.Hash.xxHash.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\MySql.Data.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\MySqlConnector.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Buffers.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Configuration.ConfigurationManager.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.IO.Pipelines.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Memory.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Numerics.Vectors.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\ZstdSharp.dll
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\BouncyCastle.Cryptography.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\Google.Protobuf.pdb
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\Google.Protobuf.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\K4os.Compression.LZ4.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\K4os.Hash.xxHash.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\MySql.Data.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\MySqlConnector.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Buffers.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.IO.Pipelines.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Memory.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Numerics.Vectors.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\gta1b\Desktop\veriyonetimsistemi\veriyonetim\veriyonetim\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\veriyonetim.dll.config
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\veriyonetim.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\veriyonetim.pdb
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\csc.exe
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\csc.exe.config
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\csc.rsp
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\csi.exe
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\csi.exe.config
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\csi.rsp
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.AppContext.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Console.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.IO.Compression.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Net.Http.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Net.Sockets.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.ValueTuple.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Xml.XPath.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\vbc.exe
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\vbc.exe.config
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\vbc.rsp
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\VBCSCompiler.exe
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\Antlr3.Runtime.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\BouncyCastle.Cryptography.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\Google.Protobuf.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\K4os.Compression.LZ4.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\K4os.Hash.xxHash.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\MySql.Data.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\MySqlConnector.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\Newtonsoft.Json.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Buffers.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Configuration.ConfigurationManager.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.IO.Pipelines.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Memory.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Numerics.Vectors.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Web.Helpers.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Web.Mvc.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Web.Optimization.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Web.Razor.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Web.WebPages.Deployment.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Web.WebPages.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Web.WebPages.Razor.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\WebGrease.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\ZstdSharp.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\BouncyCastle.Cryptography.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\Google.Protobuf.pdb
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\Google.Protobuf.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\K4os.Compression.LZ4.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\K4os.Hash.xxHash.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\MySql.Data.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\MySqlConnector.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Buffers.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.IO.Pipelines.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Memory.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Numerics.Vectors.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Web.Helpers.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Web.Mvc.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Web.Optimization.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Web.Razor.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Web.WebPages.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Web.WebPages.Deployment.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\System.Web.WebPages.Razor.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\Newtonsoft.Json.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\Antlr3.Runtime.pdb
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\obj\Debug\veriyonetim.csproj.AssemblyReference.cache
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\obj\Debug\veriyonetim.csproj.CoreCompileInputs.cache
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\obj\Debug\veriyonetim.csproj.CopyComplete
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\obj\Debug\veriyonetim.dll
+C:\Users\gta1b\Desktop\veri yönetim sistemi\veriyonetim\veriyonetim\obj\Debug\veriyonetim.pdb

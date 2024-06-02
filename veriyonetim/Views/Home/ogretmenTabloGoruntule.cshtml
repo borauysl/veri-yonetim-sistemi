@@ -1,0 +1,111 @@
+﻿@model List<object[]>
+
+@{
+    Layout = null;
+    ViewData["Title"] = "Öğretmen Paneli";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Öğretmen Paneli - Proje Tablosu</title>
+    <style>
+        body {
+            background-color: #add8e6; /* Bebe mavisi */
+            margin: 0; /* Sayfa kenar boşluğunu kaldır */
+            font-family: Arial, sans-serif; /* Genel yazı tipi */
+        }
+
+        .navbar {
+            background-color: #fff; /* Beyaz */
+            text-align: center; /* Metni ortala */
+            padding: 20px 0; /* Üst ve alt boşluk */
+            cursor: default; /* Navbar içindeki yazıya tıklanabilir olmaması */
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: #333; /* Siyah */
+            font-size: 24px; /* Yazı boyutu */
+            text-decoration: none; /* Altı çizgiyi kaldırma */
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px; /* Tablonun üst boşluğu */
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+            background-color: #fff; /* Beyaz */
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto; /* Dikey hizalama */
+            padding: 10px 20px;
+            background-color: #007bff; /* Koyu Mavi */
+            color: #fff; /* Beyaz */
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            button:hover {
+                background-color: #0056b3; /* Koyu Mavinin Açık Tonu */
+            }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">İstanbul Aydın Üniversitesi Veri Yönetim Sistemi</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Proje Tablosu</h2>
+        <table>
+            <tr>
+                <th>Proje Adı</th>
+                <th>Proje Yapımcısı</th>
+                <th>Yapılan Tarih</th>
+                <th>Proje Süresi</th>
+                <th>Proje Bütçesi</th>
+                <th>Sisteme Yükleyen</th>
+                <th>Sisteme Yükleyen ID</th>
+                <th>Proje ID</th>
+            </tr>
+            @foreach (var row in Model)
+            {
+                <tr>
+                    <td>@row[0]</td> <!-- Proje Adı -->
+                    <td>@row[1]</td> <!-- Proje Yapımcısı -->
+                    <td>@row[2]</td> <!-- Yapılan Tarih -->
+                    <td>@row[3]</td> <!-- Proje Süresi -->
+                    <td>@row[4]</td> <!-- Proje Bütçesi -->
+                    <td>@row[5]</td> <!-- Sisteme Yükleyen -->
+                    <td>@row[6]</td> <!-- Sisteme Yükleyen ID -->
+                    <td>@row[7]</td> <!-- Proje ID -->
+                </tr>
+            }
+        </table>
+    </div>
+
+    <div>
+        <form method="get" action="/Home/ogretmenSayfasi">
+            <button type="submit">Öğretmen Paneline Git</button>
+        </form>
+    </div>
+
+</body>
+</html>

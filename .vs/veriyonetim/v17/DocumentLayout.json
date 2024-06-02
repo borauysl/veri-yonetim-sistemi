@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6075B29-966D-4C18-B1DA-AC591394866D}|veriyonetim\\veriyonetim.csproj|c:\\users\\gta1b\\desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6075B29-966D-4C18-B1DA-AC591394866D}|veriyonetim\\veriyonetim.csproj|solutionrelative:veriyonetim\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6075B29-966D-4C18-B1DA-AC591394866D}|veriyonetim\\veriyonetim.csproj|C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\views\\home\\ogretmentablogoruntule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6075B29-966D-4C18-B1DA-AC591394866D}|veriyonetim\\veriyonetim.csproj|solutionrelative:veriyonetim\\views\\home\\ogretmentablogoruntule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6075B29-966D-4C18-B1DA-AC591394866D}|veriyonetim\\veriyonetim.csproj|C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\views\\home\\yoneticitablogoruntule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6075B29-966D-4C18-B1DA-AC591394866D}|veriyonetim\\veriyonetim.csproj|solutionrelative:veriyonetim\\views\\home\\yoneticitablogoruntule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6075B29-966D-4C18-B1DA-AC591394866D}|veriyonetim\\veriyonetim.csproj|C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\views\\home\\giris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6075B29-966D-4C18-B1DA-AC591394866D}|veriyonetim\\veriyonetim.csproj|solutionrelative:veriyonetim\\views\\home\\giris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6075B29-966D-4C18-B1DA-AC591394866D}|veriyonetim\\veriyonetim.csproj|C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\views\\home\\ogretmensayfasi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6075B29-966D-4C18-B1DA-AC591394866D}|veriyonetim\\veriyonetim.csproj|solutionrelative:veriyonetim\\views\\home\\ogretmensayfasi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6075B29-966D-4C18-B1DA-AC591394866D}|veriyonetim\\veriyonetim.csproj|C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\controllers\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6075B29-966D-4C18-B1DA-AC591394866D}|veriyonetim\\veriyonetim.csproj|solutionrelative:veriyonetim\\controllers\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ogretmenTabloGoruntule.cshtml",
+              "DocumentMoniker": "C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\Views\\Home\\ogretmenTabloGoruntule.cshtml",
+              "RelativeDocumentMoniker": "veriyonetim\\Views\\Home\\ogretmenTabloGoruntule.cshtml",
+              "ToolTip": "C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\Views\\Home\\ogretmenTabloGoruntule.cshtml",
+              "RelativeToolTip": "veriyonetim\\Views\\Home\\ogretmenTabloGoruntule.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-04-20T13:39:06.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "yoneticiTabloGoruntule.cshtml",
+              "DocumentMoniker": "C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\Views\\Home\\yoneticiTabloGoruntule.cshtml",
+              "RelativeDocumentMoniker": "veriyonetim\\Views\\Home\\yoneticiTabloGoruntule.cshtml",
+              "ToolTip": "C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\Views\\Home\\yoneticiTabloGoruntule.cshtml",
+              "RelativeToolTip": "veriyonetim\\Views\\Home\\yoneticiTabloGoruntule.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-04-20T13:39:08.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "veriyonetim\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "veriyonetim\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAEsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T13:39:08.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\Controllers\\Project.cs",
+              "RelativeDocumentMoniker": "veriyonetim\\Controllers\\Project.cs",
+              "ToolTip": "C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\Controllers\\Project.cs",
+              "RelativeToolTip": "veriyonetim\\Controllers\\Project.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T13:39:08.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ogretmenSayfasi.cshtml",
+              "DocumentMoniker": "C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\Views\\Home\\ogretmenSayfasi.cshtml",
+              "RelativeDocumentMoniker": "veriyonetim\\Views\\Home\\ogretmenSayfasi.cshtml",
+              "ToolTip": "C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\Views\\Home\\ogretmenSayfasi.cshtml",
+              "RelativeToolTip": "veriyonetim\\Views\\Home\\ogretmenSayfasi.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-04-20T13:39:08.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Giris.cshtml",
+              "DocumentMoniker": "C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\Views\\Home\\Giris.cshtml",
+              "RelativeDocumentMoniker": "veriyonetim\\Views\\Home\\Giris.cshtml",
+              "ToolTip": "C:\\Users\\gta1b\\Desktop\\veri y\u00F6netim sistemi\\veriyonetim\\veriyonetim\\Views\\Home\\Giris.cshtml",
+              "RelativeToolTip": "veriyonetim\\Views\\Home\\Giris.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-04-20T13:39:08.17Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
