@@ -1,4 +1,4 @@
-bu web programı bir üniverste içinde yapılan sosyal sorumluluk projeleri veya ödenek çıkartılan projelerin verisini üniversite bünyesinde tutulması için yapılmıştır. bu veriler mysql kullanılarak tutulmaktadır. sql şemamızın adı veriyonetimsistemi ve tabloların oluşturulması için gerekli kodlar ise : 
+bu web programı bir üniverste içinde yapılan sosyal sorumluluk projeleri veya ödenek çıkartılan projelerin verisini üniversite bünyesinde tutulması için yapılmıştır. bu veriler mysql kullanılarak tutulmaktadır. sql şemamızın adı veriyonetimsistemi ve tabloların oluşturulması için gerekli komutlar ise : 
 
 USE veriyonetimsistemi;
 
