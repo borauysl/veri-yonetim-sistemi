@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -17,12 +17,12 @@ namespace veriyonetim.Controllers
         string connectionString = "Server=localhost;Database=veriyonetimsistemi;Uid=root;Pwd=1234;";
         private MySqlConnection GetConnection()
         {
-            // Veritabanı bağlantı dizesini Web.config dosyasından al
+
             string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
             return new MySqlConnection(connectionString);
         }
 
-        //App_Start dosyasında bulunan RouteConfigde homeyi açılacak html sayfası ile aynı yapman gerekiyo eğer 404 alırsan aklında  bulunsun mal:)
+        //App_Start dosyasında bulunan RouteConfigde homeyi açılacak html sayfası ile aynı yapman gerekiyo eğer 404 alırsan aklında  bulunsun :)
 
         public ActionResult Giris()
         {
@@ -71,7 +71,7 @@ namespace veriyonetim.Controllers
                                 return RedirectToAction("Giris");
                         }
 
-                        // Kullanıcıyı ilgili sayfaya yönlendirme
+                        // kullanıcıyı ilgili sayfaya yönlendirme
                         return RedirectToAction(redirectAction, new { id = userID, sistemegiren = retrievedUserName });
                     }
                     else
@@ -104,26 +104,34 @@ namespace veriyonetim.Controllers
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 try
-                {
-                    // Bağlantıyı aç
+                {              
                     connection.Open();
-
-                    // Ekleme sorgusu
-                    string query = "INSERT INTO projetablo (projeAdi, projeYapimcisi, yapilanTarih, projeSuresi, projeButcesi, sistemeYukleyen, sistemeYukleyenID) VALUES (@ProjeAdi, @ProjeYapimcisi, @ProjeTarihi, @ProjeSure, @ProjeButcesi, @SistemeYukleyen, @SistemeYukleyenID)";
-
-                    // Komut oluştur
+                    
+                    string query = "INSERT INTO projetablo (projeOneriTarihi, projeAdi, projeTuru, projeDanismani, projeYurutucusu, projeEkibi, projeKonusu, projeAmaci, projeHedefKitlesi, projeSuresi, projeButcesi, projeEtkilikleri, projeBaslangicTarihi, projeBitisTarihi, projeKurumKuruluslar, projeMateryaller, sistemeYukleyen, sistemeYukleyenID) " +
+                                   "VALUES (@ProjeOneriTarihi, @ProjeAdi, @ProjeTuru, @ProjeDanismani, @ProjeYurutucusu, @ProjeEkibi, @ProjeKonusu, @ProjeAmaci, @ProjeHedefKitlesi, @ProjeSure, @ProjeButcesi, @ProjeEtkilikleri, @ProjeBaslangicTarihi, @ProjeBitisTarihi, @ProjeKurumKuruluslar, @ProjeMateryaller, @SistemeYukleyen, @SistemeYukleyenID)";
+                   
                     MySqlCommand command = new MySqlCommand(query, connection);
-
-                    // Parametreleri ata
+                    
+                    command.Parameters.AddWithValue("@ProjeOneriTarihi", projebilgileri.ProjeOneriTarihi);
                     command.Parameters.AddWithValue("@ProjeAdi", projebilgileri.ProjeAdi);
-                    command.Parameters.AddWithValue("@ProjeYapimcisi", projebilgileri.ProjeYapimcisi);
-                    command.Parameters.AddWithValue("@ProjeTarihi", projebilgileri.ProjeTarihi);
+                    command.Parameters.AddWithValue("@ProjeTuru", projebilgileri.ProjeTuru);
+                    command.Parameters.AddWithValue("@ProjeDanismani", projebilgileri.ProjeDanismani);
+                    command.Parameters.AddWithValue("@ProjeYurutucusu", projebilgileri.ProjeYurutucusu);
+                    command.Parameters.AddWithValue("@ProjeEkibi", projebilgileri.ProjeEkibi);
+                    command.Parameters.AddWithValue("@ProjeKonusu", projebilgileri.ProjeKonusu);
+                    command.Parameters.AddWithValue("@ProjeAmaci", projebilgileri.ProjeAmaci);
+                    command.Parameters.AddWithValue("@ProjeHedefKitlesi", projebilgileri.ProjeHedefKitlesi);
                     command.Parameters.AddWithValue("@ProjeSure", projebilgileri.ProjeSure);
                     command.Parameters.AddWithValue("@ProjeButcesi", projebilgileri.ProjeButcesi);
+                    command.Parameters.AddWithValue("@ProjeEtkilikleri", projebilgileri.ProjeEtkilikleri);
+                    command.Parameters.AddWithValue("@ProjeBaslangicTarihi", projebilgileri.ProjeBaslangicTarihi);
+                    command.Parameters.AddWithValue("@ProjeBitisTarihi", projebilgileri.ProjeBitisTarihi);
+                    command.Parameters.AddWithValue("@ProjeKurumKuruluslar", projebilgileri.ProjeKurumKuruluslar);
+                    command.Parameters.AddWithValue("@ProjeMateryaller", projebilgileri.ProjeMateryaller);
                     command.Parameters.AddWithValue("@SistemeYukleyen", sistemeGiren);
                     command.Parameters.AddWithValue("@SistemeYukleyenID", userID);
 
-                    // Sorguyu çalıştır
+                   
                     int rowsAffected = command.ExecuteNonQuery();
 
                     if (rowsAffected > 0)
@@ -137,7 +145,7 @@ namespace veriyonetim.Controllers
                 }
                 catch (Exception ex)
                 {
-                    // Hata durumunda işlemler
+                    
                     TempData["ErrorMessage"] = "İşlem sırasında bir hata oluştu: " + ex.Message;
                 }
             }
@@ -197,7 +205,7 @@ namespace veriyonetim.Controllers
                 }
                 catch (Exception ex)
                 {
-                    // Hata yönetimi burada ele alınabilir
+                    // hata yönetimi burada ele alınabilir
                 }
             }
 
@@ -254,11 +262,11 @@ namespace veriyonetim.Controllers
                 }
                 catch (Exception ex)
                 {
-                    // Hata yönetimi burada ele alınabilir
+                    // hata yönetimi burada ele alınabilir
                 }
             }
 
-            // Silme işleminden sonra tekrar Index sayfasına yönlendirme yapabilirsiniz
+            // silmeden sonra refresh atıyoruz
             return RedirectToAction("yoneticiTabloGoruntule");
         }
 
