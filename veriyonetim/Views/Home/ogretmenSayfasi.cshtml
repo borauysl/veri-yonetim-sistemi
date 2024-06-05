@@ -1,4 +1,4 @@
-﻿@model Project
+@model Project
 @{
     Layout = null;
     ViewData["Title"] = "Öğretmen Paneli";
@@ -100,19 +100,54 @@
         <h1>Proje Bilgileri :</h1>
         <form method="post" action="/Home/ogretmenSayfasi">
             <div class="form-group">
+                <label for="ProjeOneriTarihi">Projenin Önerildiği Tarih:</label>
+                <input name="ProjeOneriTarihi" class="form-control" required type="date" />
+                @Html.ValidationMessageFor(model => model.ProjeOneriTarihi, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
                 <label for="ProjeAdi">Proje Adı:</label>
                 <input name="ProjeAdi" class="form-control" required />
                 @Html.ValidationMessageFor(model => model.ProjeAdi, "", new { @class = "text-danger" })
             </div>
             <div class="form-group">
-                <label for="ProjeYapimcisi">Proje Yapımcısı:</label>
-                <input name="ProjeYapimcisi" class="form-control" required />
-                @Html.ValidationMessageFor(model => model.ProjeYapimcisi, "", new { @class = "text-danger" })
+                <label for="ProjeTuru">Proje Türü:</label>
+                <select name="ProjeTuru" class="form-control" required>
+                    <option value="ar-ge">AR-GE</option>
+                    <option value="sosyal_sorumluluk">Sosyal Sorumluluk</option>
+                    <option value="tekmer">Tekmer</option>
+                    <option value="sergi">Sergi</option>
+                </select>
+                @Html.ValidationMessageFor(model => model.ProjeTuru, "", new { @class = "text-danger" })
             </div>
             <div class="form-group">
-                <label for="ProjeTarihi">Proje Tarihi:</label>
-                <input name="ProjeTarihi" class="form-control" required type="date" />
-                @Html.ValidationMessageFor(model => model.ProjeTarihi, "", new { @class = "text-danger" })
+                <label for="ProjeDanismani">Proje Danışmanı:</label>
+                <input name="ProjeDanismani" class="form-control" required />
+                @Html.ValidationMessageFor(model => model.ProjeDanismani, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label for="ProjeYurutucusu">Proje Yürütücüsü (Öğrenci):</label>
+                <input name="ProjeYurutucusu" class="form-control" required />
+                @Html.ValidationMessageFor(model => model.ProjeYurutucusu, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label for="ProjeEkibi">Proje Ekibi (Öğrenciler):</label>
+                <textarea name="ProjeEkibi" class="form-control" required></textarea>
+                @Html.ValidationMessageFor(model => model.ProjeEkibi, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label for="ProjeKonusu">Proje Konusu:</label>
+                <textarea name="ProjeKonusu" class="form-control" required></textarea>
+                @Html.ValidationMessageFor(model => model.ProjeKonusu, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label for="ProjeAmaci">Proje Amacı:</label>
+                <textarea name="ProjeAmaci" class="form-control" required></textarea>
+                @Html.ValidationMessageFor(model => model.ProjeAmaci, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label for="ProjeHedefKitlesi">Proje Hedef Kitlesi:</label>
+                <textarea name="ProjeHedefKitlesi" class="form-control" required></textarea>
+                @Html.ValidationMessageFor(model => model.ProjeHedefKitlesi, "", new { @class = "text-danger" })
             </div>
             <div class="form-group">
                 <label for="ProjeSure">Proje Süresi (gün):</label>
@@ -120,28 +155,55 @@
                 @Html.ValidationMessageFor(model => model.ProjeSure, "", new { @class = "text-danger" })
             </div>
             <div class="form-group">
-                <label for="ProjeButcesi">Proje Bütçesi (₺):</label>
+                <label for="ProjeButcesi">Proje Tahmini Bütçesi (₺):</label>
                 <input name="ProjeButcesi" class="form-control" required type="number" min="0" />
                 @Html.ValidationMessageFor(model => model.ProjeButcesi, "", new { @class = "text-danger" })
             </div>
+            <div class="form-group">
+                <label for="ProjeEtkilikleri">Proje Etkinlikleri:</label>
+                <textarea name="ProjeEtkilikleri" class="form-control" required></textarea>
+                @Html.ValidationMessageFor(model => model.ProjeEtkilikleri, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label for="ProjeBaslangicTarihi">Proje Başlangıç Tarihi:</label>
+                <input name="ProjeBaslangicTarihi" class="form-control" required type="date" />
+                @Html.ValidationMessageFor(model => model.ProjeBaslangicTarihi, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label for="ProjeBitisTarihi">Proje Bitiş Tarihi:</label>
+                <input name="ProjeBitisTarihi" class="form-control" required type="date" />
+                @Html.ValidationMessageFor(model => model.ProjeBitisTarihi, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label for="ProjeKurumKuruluslar">Projeye Katkı Sağlayacak Kurum ve Kuruluşlar:</label>
+                <textarea name="ProjeKurumKuruluslar" class="form-control" required></textarea>
+                @Html.ValidationMessageFor(model => model.ProjeKurumKuruluslar, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label for="ProjeMateryaller">Projede Kullanılacak Materyal, Araç ve Gereçler:</label>
+                <textarea name="ProjeMateryaller" class="form-control" required></textarea>
+                @Html.ValidationMessageFor(model => model.ProjeMateryaller, "", new { @class = "text-danger" })
+            </div>
             <button type="submit" class="btn btn-primary">Kaydet</button>
         </form>
+    </div>
 
-        <!-- Hata mesajını göster -->
-        @if (TempData["ErrorMessage"] != null)
-        {
-            <div class="alert alert-danger">
-                @TempData["ErrorMessage"]
-            </div>
-        }
 
-        <!-- Başarı mesajını göster -->
-        @if (TempData["SuccessMessage"] != null)
-        {
-            <div class="alert alert-success">
-                @TempData["SuccessMessage"]
-            </div>
-        }
+    <!-- Hata mesajını göster -->
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    <!-- Başarı mesajını göster -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
     </div>
 
 
